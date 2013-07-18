@@ -1,0 +1,85 @@
+.post-type-archive-book, .single-book {
+	.post .cover img {
+		width: auto;
+	}
+
+	background-color: $orange;
+
+}
+
+
+
+.author {
+	font-style: italic;
+}
+
+.shelf {
+	width: 80%;
+	margin: 0 auto;
+
+	.title.main {
+		font-style: normal;
+		font-family: $small-caps;
+		text-transform: lowercase;
+		text-align: center;
+		@include adjust-font-size-to(28px);
+		color: #fff;
+		text-rendering: optimizeLegibility;
+		@include smooth;
+	}
+}
+
+
+.book {
+	width: 17%;
+	height: rhythm(10);
+	overflow: hidden;
+	line-height: 0;
+	float: left;
+	margin: 0 3% rhythm(2) 3%;
+	position: relative;
+	@include clearfix;
+	
+	figure {
+		margin: 0;
+		padding: 0;
+	}
+
+	img {
+		width: auto;
+		max-width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.title {
+		position: absolute;
+		top: 0;
+		font-family: $small-caps;
+		text-transform: lowercase;
+		text-align: center;
+		opacity: 0;
+		background: $red;
+		color: #fff;
+		height: 100%;
+		@include smooth;
+		@include adjust-font-size-to(16px, 1);
+		@include box-sizing(border-box);
+		@include transition-property(opacity);
+		@include transition-duration(.1s);
+	}
+
+	.author {
+		font-family: $main-font;
+		display: block;
+		font-size: 12px;
+	}
+
+	&:hover {
+		.title {
+			opacity: 1
+		}
+	}
+}
+

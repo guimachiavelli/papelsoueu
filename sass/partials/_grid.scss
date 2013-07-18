@@ -1,0 +1,45 @@
+// Basic Grid
+
+$container-width: 100%;
+$total-columns  : 12;
+$column-width   : 80px;
+$gutter-width   : 26px;
+$grid-padding   : 0;
+$container-style: magic;
+
+$show-grid-backgrounds: true;
+$show-grid-backgrounds: false;
+
+//typography vars
+@import url(http://fonts.googleapis.com/css?family=Mate:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Mate+SC);
+
+/*
+@font-face {
+    font-family: 'Mate';
+    src: url('../fonts/Mate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mate';
+    src: url('../fonts/Mate-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mate SC';
+    src: url('../fonts/MateSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+*/
+$main-font: 'Mate', Georgia, sans-serif;
+$small-caps: 'Mate SC', Georgia, sans-serif;
+
+$base-font-size: 14px;
+$base-line-height: 20px;
+

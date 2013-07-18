@@ -1,0 +1,15 @@
+
+a {
+	text-decoration: none;
+}
+
+
+input {
+	border: 1px solid $red;
+	height: rhythm(1);
+	padding: 0 .5em;
+	font-family: $main-font;
+	color: $orange;
+	background: transparent;
+	@include input-placeholder($red);
+}

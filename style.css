@@ -1,0 +1,698 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Mate:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Mate+SC);
+/*  based on HTML5 Boilerplate */
+/* 
+  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+  html5doctor.com/html-5-reset-stylesheet/
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000320}}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000332}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000335}}
+button, input, select, textarea {
+  margin: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000336}}
+ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000337}}
+blockquote, q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000339}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000340}}
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000341}}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000342}}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000343}}
+del {
+  text-decoration: line-through;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000344}}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000345}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* tables still need cellspacing="0" in the markup */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_reset\.scss}line{font-family:\0000346}}
+input, select {
+  vertical-align: middle;
+}
+
+/* END RESET CSS */
+/*
+@font-face {
+    font-family: 'Mate';
+    src: url('../fonts/Mate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mate';
+    src: url('../fonts/Mate-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mate SC';
+    src: url('../fonts/MateSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_general\.scss}line{font-family:\000032}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_general\.scss}line{font-family:\000037}}
+input {
+  border: 1px solid #ce1619;
+  height: 1.42857em;
+  padding: 0 0.5em;
+  font-family: "Mate", Georgia, sans-serif;
+  color: #e38b7b;
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_mixins\.scss}line{font-family:\000036}}
+input.placeholder {
+  color: #ce1619;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_mixins\.scss}line{font-family:\000039}}
+input:-moz-placeholder {
+  color: #ce1619;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_mixins\.scss}line{font-family:\0000312}}
+input::-webkit-input-placeholder {
+  color: #ce1619;
+}
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+* html {
+  font-size: 87.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+html {
+  font-size: 14px;
+  line-height: 1.42857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000317}}
+html {
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+  font-family: "Mate", Georgia, sans-serif;
+  font-size: 14px;
+  background: #fae8de;
+  border: 25px solid white;
+  min-height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000327}}
+.home {
+  background: #ce1619;
+  border: 25px solid white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000331}}
+.home body {
+  color: #fae8de;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000335}}
+.home #content {
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000342}}
+body {
+  height: 100%;
+  *zoom: 1;
+  max-width: 100%;
+  _width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 0 0 0;
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 600s;
+  -moz-transition-duration: 600s;
+  -o-transition-duration: 600s;
+  transition-duration: 600s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000352}}
+a {
+  color: #fae8de;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000357}}
+#intro {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 2px;
+  color: #ce1619;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000364}}
+#intro.scroll {
+  background: #fff;
+  padding: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000369}}
+#intro * {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000373}}
+#intro a {
+  color: #ce1619;
+  margin-left: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000376}}
+#intro a:hover {
+  color: #f07375;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000381}}
+#intro #social {
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000386}}
+#intro h1 a {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000389}}
+#intro li {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\0000394}}
+.lvl2 {
+  position: absolute;
+  left: 0;
+  top: 1.42857em;
+  padding-right: 5px;
+  -webkit-box-shadow: 2px 2px 0px 0 rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 2px 2px 0px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 0px 0 rgba(255, 255, 255, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003101}}
+.lvl2 li {
+  background: #fff;
+  width: 100%;
+  display: block;
+  padding: 0.35714em 5px 0.35714em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003109}}
+#archive-drop {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003112}}
+#archive-drop:after {
+  content: ' ▼';
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003117}}
+#archive-drop:hover:after {
+  color: #e38b7b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003119}}
+#archive-drop.active:after {
+  content: ' ▶';
+  font-size: 9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003127}}
+.inline-form {
+  position: absolute;
+  right: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003133}}
+#content {
+  margin-top: 2.85714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003138}}
+.post {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003141}}
+.post blockquote {
+  font-size: 2em;
+  line-height: 1.42857em;
+  margin: 10px 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003146}}
+.post hgroup {
+  margin: 140px 0 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003150}}
+.post figure {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003154}}
+.post .title {
+  text-transform: lowercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003158}}
+.post p {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003162}}
+.post img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003169}}
+.related-posts {
+  font-style: italic;
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003176}}
+.tags h1, .tags ul, .tags li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003179}}
+.tags li:after {
+  content: ',';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003183}}
+.tags li:last-child:after {
+  content: '';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003192}}
+.home .post {
+  min-height: 14.28571em;
+  margin: 0 auto 7.14286em auto;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Mate SC", Georgia, sans-serif;
+  position: relative;
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transform: rotate(0.3deg);
+  -moz-transform: rotate(0.3deg);
+  -ms-transform: rotate(0.3deg);
+  -o-transform: rotate(0.3deg);
+  transform: rotate(0.3deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003205}}
+.home .post:hover .thumbnail {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003209}}
+.home .post:hover footer, .home .post:hover a {
+  color: #ce1619;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003214}}
+.home .post .title {
+  letter-spacing: -2.5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003220}}
+.home .title {
+  position: relative;
+  z-index: 1;
+  font-size: 6.42857em;
+  line-height: 0.88889em;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003227}}
+.home .title a {
+  text-decoration: none;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003234}}
+.home .excerpt {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003238}}
+.home .big-data {
+  -webkit-transform: rotate(-0.3deg);
+  -moz-transform: rotate(-0.3deg);
+  -ms-transform: rotate(-0.3deg);
+  -o-transform: rotate(-0.3deg);
+  transform: rotate(-0.3deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003242}}
+.home .thumbnail {
+  width: 100%;
+  max-height: 11.42857em;
+  position: absolute;
+  top: -50%;
+  z-index: 0;
+  display: none;
+  opacity: 0.7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003252}}
+.home .thumbnail img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003257}}
+.home footer {
+  position: relative;
+  z-index: 1;
+  margin: 1.42857em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003262}}
+.home footer:after, .home footer:before {
+  content: ' ░ ';
+  font-style: normal;
+  position: relative;
+  top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003270}}
+.home .nota {
+  margin: 0 5% 7.14286em 5%;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003274}}
+.home .nota .short-description {
+  font-style: italic;
+  letter-spacing: .5px;
+  padding-bottom: 0.21429em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003280}}
+.home .nota:hover {
+  color: #e38b7b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003285}}
+.home .nota:nth-child(2n+1) {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003287}}
+.home .nota:nth-child(2n+1):after, .home .nota:nth-child(2n+1):before {
+  left: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003293}}
+.home .nota:after, .home .nota:before {
+  content: '░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░';
+  display: block;
+  font-style: normal;
+  position: relative;
+  top: 1px;
+  left: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003302}}
+.home .nota .title {
+  font-size: 1.28571em;
+  line-height: 1.66667em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003305}}
+.home .nota .title:before {
+  content: '⌨ ';
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003311}}
+.home .nota footer {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003323}}
+.archive, .page, .single {
+  margin-bottom: 7.14286em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003327}}
+.archive #content a, .page #content a, .single #content a {
+  color: #ce1619;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003331}}
+.archive .post p, .archive .post header, .page .post p, .page .post header, .single .post p, .single .post header {
+  width: 60%;
+  max-width: 415px;
+  margin: 0 auto 1.42857em auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003337}}
+.archive .post .title, .page .post .title, .single .post .title {
+  font-size: 1.42857em;
+  line-height: 1em;
+  font-family: "Mate SC", Georgia, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003343}}
+.archive .post footer, .page .post footer, .single .post footer {
+  position: fixed;
+  bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003347}}
+.archive .post footer *, .page .post footer *, .single .post footer * {
+  color: #ce1619;
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003354}}
+.archive .post figure img, .page .post figure img, .single .post figure img {
+  width: 70%;
+  margin: 2.85714em auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003360}}
+.archive .post blockquote, .page .post blockquote, .single .post blockquote {
+  font-size: 1em;
+  line-height: 1.42857em;
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003364}}
+.archive .post blockquote p, .page .post blockquote p, .single .post blockquote p {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 4.28571em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003371}}
+.archive .title.main, .page .title.main, .single .title.main {
+  font-style: italic;
+  width: 60%;
+  max-width: 415px;
+  margin: 0 auto 1.42857em auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003382}}
+.archive .post {
+  margin-bottom: 2.85714em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003385}}
+.archive .post header {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003389}}
+.archive .post .preview {
+  float: left;
+  height: 129px;
+  overflow: hidden;
+  margin: 0 14px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003395}}
+.archive .post .preview img {
+  width: 129px;
+  height: 129px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003405}}
+.archive #content a {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003408}}
+.archive #content a:hover {
+  color: #ce1619;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003420}}
+.js .hidden {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/style\.scss}line{font-family:\00003426}}
+.js #intro .hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\000031}}
+.post-type-archive-book, .single-book {
+  background-color: #e38b7b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\000032}}
+.post-type-archive-book .post .cover img, .single-book .post .cover img {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000312}}
+.author {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000316}}
+.shelf {
+  width: 80%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000320}}
+.shelf .title.main {
+  font-style: normal;
+  font-family: "Mate SC", Georgia, sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.42857em;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000333}}
+.book {
+  width: 17%;
+  height: 14.28571em;
+  overflow: hidden;
+  line-height: 0;
+  float: left;
+  margin: 0 3% 2.85714em 3%;
+  position: relative;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000343}}
+.book figure {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000348}}
+.book img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000356}}
+.book .title {
+  position: absolute;
+  top: 0;
+  font-family: "Mate SC", Georgia, sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  opacity: 0;
+  background: #ce1619;
+  color: #fff;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.14286em;
+  line-height: 1.25em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000373}}
+.book .author {
+  font-family: "Mate", Georgia, sans-serif;
+  display: block;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gui\/projects\/dianaab\/papel\/wordpress\/wp-content\/themes\/papel\/sass\/partials\/_bookshelf\.scss}line{font-family:\0000380}}
+.book:hover .title {
+  opacity: 1;
+}
